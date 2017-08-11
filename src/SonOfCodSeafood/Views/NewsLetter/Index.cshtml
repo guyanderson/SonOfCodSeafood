@@ -1,0 +1,25 @@
+﻿@model SonOfCodSeafood.Models.Recipient
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Would you like to sign up for our News letter?</h1>
+
+@using (Html.BeginForm("Create", "NewsLetter"))
+{
+    @Html.LabelFor(model => model.Email, "Email: ")
+    @Html.TextBoxFor(model => model.Email)
+    <br />
+    <br />
+    <input type="submit" value="Sign up" />
+
+}
+<br />
+
+<p>@Html.ActionLink("Back to Admin", "Index")</p>
+
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
+
+@*   <p>@Html.Action("Sign up", "Create", "NewsLetter")</p>*@

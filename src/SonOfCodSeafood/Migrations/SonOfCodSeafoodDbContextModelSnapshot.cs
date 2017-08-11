@@ -35,7 +35,7 @@ namespace SonOfCodSeafood.Migrations
                     b.Property<int>("RecipientId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("email");
+                    b.Property<string>("Email");
 
                     b.HasKey("RecipientId");
 
