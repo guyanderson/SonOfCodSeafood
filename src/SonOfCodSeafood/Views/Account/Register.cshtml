@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using SonOfCodSeafood.ViewModels
+
+@model AdminViewModel
+
+<h2>Register an Admin</h2>
+<hr />
+@using (Html.BeginForm("Register", "Account", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.Email, "Email: ")
+    @Html.TextBoxFor(m => m.Email)
+    <br />
+    <br />
+    @Html.LabelFor(m => m.Password, "Password: ")
+    @Html.PasswordFor(m => m.Password)
+    <br />
+    <br />
+    @Html.LabelFor(m => m.ConfirmPassword, "Confirm password: ")
+    @Html.PasswordFor(m => m.ConfirmPassword)
+    <br />
+    <br />
+    <input type="submit" value="Register" />
+}
