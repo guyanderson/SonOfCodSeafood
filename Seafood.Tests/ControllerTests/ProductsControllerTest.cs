@@ -19,7 +19,7 @@ namespace Seafood.Tests.ControllerTests
             ProductController controller = new ProductController();
 
             //Act
-            var result = controller.details();
+            var result = controller.Index();
 
             //Assert
             Assert.IsType<ViewResult>(result);
