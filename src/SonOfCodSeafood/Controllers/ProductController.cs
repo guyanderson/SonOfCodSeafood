@@ -5,22 +5,28 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SonOfCodSeafood.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace SonOfCodSeafood.Controllers
 {
     public class ProductController : Controller
     {
 
-        private SonOfCodSeafoodDbContext db = new SonOfCodSeafoodDbContext();
+        private SonOfCodSeafoodDbContext _db;
+
+        public ProductController(SonOfCodSeafoodDbContext db)
+        {
+            _db = db;
+        }
 
         public IActionResult Index()
         {
-            return View(db.Products.ToList());
+            return View(_db.Products.ToList());
         }
 
         public IActionResult Details(int id)
         {
-            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
+            var thisProduct = _db.Products.FirstOrDefault(products => products.ProductId == id);
             return View(thisProduct);
         }
 

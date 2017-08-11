@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using SonOfCodSeafood.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace SonOfCodSeafood
 {
@@ -35,11 +36,16 @@ namespace SonOfCodSeafood
                     options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
 
             services.AddMvc();
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<SonOfCodSeafoodDbContext>()
+                .AddDefaultTokenProviders();
         }
 
         public void Configure(IApplicationBuilder app)
         {
 
+            app.UseIdentity();
             app.UseStaticFiles();
 
             app.UseMvc(routes =>

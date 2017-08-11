@@ -5,15 +5,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SonOfCodSeafood.Models;
 using Microsoft.EntityFrameworkCore;
-
-
+using Microsoft.AspNetCore.Identity;
 
 namespace SonOfCodSeafood.Controllers
 {
     public class NewsLetterController : Controller
     {
 
-        private SonOfCodSeafoodDbContext db = new SonOfCodSeafoodDbContext();
+        private SonOfCodSeafoodDbContext _db;
+
+        public NewsLetterController(SonOfCodSeafoodDbContext db)
+        {
+            _db = db;
+        }
 
         public IActionResult Index()
         {
@@ -24,8 +28,8 @@ namespace SonOfCodSeafood.Controllers
         [HttpPost]
         public IActionResult Create(Recipient recipient)
         {
-            db.Recipients.Add(recipient);
-            db.SaveChanges();
+            _db.Recipients.Add(recipient);
+            _db.SaveChanges();
             return RedirectToAction("Index", "Home");
         }
 
