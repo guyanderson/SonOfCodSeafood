@@ -32,14 +32,29 @@ namespace SonOfCodSeafood.Controllers
 
         public IActionResult Edit(int id)
         {
-            var thisItem = _db.Products.FirstOrDefault(items => items.ProductId == id);
-            return View(thisItem);
+            var thisProduct = _db.Products.FirstOrDefault(products => products.ProductId == id);
+            return View(thisProduct);
         }
 
         [HttpPost]
         public IActionResult Edit(Product product)
         {
             _db.Entry(product).State = EntityState.Modified;
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var thisProduct = _db.Products.FirstOrDefault(products => products.ProductId == id);
+            return View(thisProduct);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var thisProduct = _db.Products.FirstOrDefault(products => products.ProductId == id);
+            _db.Products.Remove(thisProduct);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }

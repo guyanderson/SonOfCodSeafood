@@ -1,0 +1,16 @@
+﻿@model SonOfCodSeafood.Models.Product
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Not a top seller huh? Are you sure you want to delete @Html.DisplayFor(model => model.Name) from our database?</h3>
+<hr />
+
+@using (Html.BeginForm())
+{
+    <input type="submit" value="Delete" />
+}
+<br />
+@Html.ActionLink("Back to Products", "Index")
