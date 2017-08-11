@@ -199,4 +199,5 @@
 --reference:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Program.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Startup.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\HomeControllerTest.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\ProductsControllerTest.cs
