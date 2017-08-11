@@ -32,9 +32,12 @@ namespace SonOfCodSeafood.Migrations
 
             modelBuilder.Entity("SonOfCodSeafood.Models.Recipient", b =>
                 {
+                    b.Property<int>("RecipientId")
+                        .ValueGeneratedOnAdd();
+
                     b.Property<string>("email");
 
-                    b.HasKey("email");
+                    b.HasKey("RecipientId");
 
                     b.ToTable("Recipients");
                 });

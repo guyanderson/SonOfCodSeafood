@@ -27,11 +27,13 @@ namespace SonOfCodSeafood.Migrations
                 name: "Recipients",
                 columns: table => new
                 {
-                    email = table.Column<string>(nullable: false)
+                    RecipientId = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    email = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Recipients", x => x.email);
+                    table.PrimaryKey("PK_Recipients", x => x.RecipientId);
                 });
         }
 

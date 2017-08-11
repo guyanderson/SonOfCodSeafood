@@ -8,7 +8,7 @@ using SonOfCodSeafood.Models;
 namespace SonOfCodSeafood.Migrations
 {
     [DbContext(typeof(SonOfCodSeafoodDbContext))]
-    [Migration("20170811164855_Initial")]
+    [Migration("20170811173749_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,9 +33,12 @@ namespace SonOfCodSeafood.Migrations
 
             modelBuilder.Entity("SonOfCodSeafood.Models.Recipient", b =>
                 {
+                    b.Property<int>("RecipientId")
+                        .ValueGeneratedOnAdd();
+
                     b.Property<string>("email");
 
-                    b.HasKey("email");
+                    b.HasKey("RecipientId");
 
                     b.ToTable("Recipients");
                 });

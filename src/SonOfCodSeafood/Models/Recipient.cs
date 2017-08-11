@@ -11,6 +11,7 @@ namespace SonOfCodSeafood.Models
     public class Recipient
     {
         [Key]
+        public int RecipientId { get; set; }
         public string email { get; set; }
     }
 }
