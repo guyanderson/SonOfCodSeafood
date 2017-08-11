@@ -30,5 +30,19 @@ namespace SonOfCodSeafood.Controllers
             return View(thisProduct);
         }
 
+        public IActionResult Edit(int id)
+        {
+            var thisItem = _db.Products.FirstOrDefault(items => items.ProductId == id);
+            return View(thisItem);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            _db.Entry(product).State = EntityState.Modified;
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }
