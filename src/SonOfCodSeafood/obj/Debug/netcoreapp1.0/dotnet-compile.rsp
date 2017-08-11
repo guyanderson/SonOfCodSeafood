@@ -204,6 +204,7 @@
 --resource:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafooddotnet-compile.deps.json",SonOfCodSeafood.deps.json
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Program.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Startup.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\AccountController.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\HomeController.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\NewsLetterController.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\ProductController.cs
