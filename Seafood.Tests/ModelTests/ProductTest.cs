@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SonOfCodSeafood.Models;
+using SonOfCodSeafood.Controllers;
 using Xunit;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Seafood.Tests.ModelTests
 {
@@ -22,6 +24,20 @@ namespace Seafood.Tests.ModelTests
 
             //Assert
             Assert.Equal("Cod", result);
+        }
+
+        [Fact]
+        public void Get_ModelList_Index_Test()
+        {
+            //Arrange
+            ViewResult indexView = new ProductController().Index() as ViewResult;
+
+
+            //Act
+            var result = indexView.ViewData.Model;
+
+            //Assert
+            Assert.IsType<List<Product>>(result);
         }
 
     }
