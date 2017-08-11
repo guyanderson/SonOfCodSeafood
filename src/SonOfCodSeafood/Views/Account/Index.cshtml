@@ -1,11 +1,25 @@
-﻿@{
+﻿@using System.Security.Claims
+
+@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <hr />
-<h3>Please Log in.</h3>
-<p>@Html.ActionLink("Log in", "Login")</p>
 
-<h3>Not an Admin? Would you like to be? There's no background check. In fact, you don't even have to be an employee! Feel free to wreak havoc on our site!</h3>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>Hello @User.Identity.Name!</p>
+    @using (Html.BeginForm("LogOff", "Account"))
+    {
+        <input type="submit" class="btn btn-default" value="Log out" />
+    }
+}
+else
+{
+    <h3>Please Log in.</h3>
+    <p>@Html.ActionLink("Log in", "Login")</p>
 
-<p>@Html.ActionLink("Register", "Register")</p>
+    <h3>Not an Admin? Would you like to be? There's no background check. In fact, you don't even have to be an employee! Feel free to wreak havoc on our site!</h3>
+
+    <p>@Html.ActionLink("Register", "Register")</p>
+}
