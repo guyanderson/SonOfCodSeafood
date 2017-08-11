@@ -1,0 +1,18 @@
+﻿@model IEnumerable<SonOfCodSeafood.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Our products:</h2>
+<ul>
+    @foreach (var listItem in Model)
+    {
+        <li>
+            @Html.ActionLink(listItem.Name, "Details", new { id = listItem.ProductId })
+        </li>
+    }
+</ul>
+
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>

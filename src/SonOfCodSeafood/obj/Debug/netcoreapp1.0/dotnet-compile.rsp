@@ -202,7 +202,6 @@
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
 --resource:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafooddotnet-compile.deps.json",SonOfCodSeafood.deps.json
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\HomeController.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Program.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Startup.cs
 C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\HomeController.cs

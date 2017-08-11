@@ -1,0 +1,15 @@
+﻿@model SonOfCodSeafood.Models.Product
+
+@{
+    ViewData["Title"] = "Gummy Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Product description:</h2>
+<hr />
+<strong>Name:</strong> @Html.DisplayFor(model => model.Name)
+<br />
+<strong>Description:</strong> @Html.DisplayFor(model => model.Description)
+<br />
+<p>@Html.ActionLink("Back to Products", "Index")</p>
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
