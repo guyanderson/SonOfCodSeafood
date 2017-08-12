@@ -8,7 +8,9 @@
 
 <h2>Our products:</h2>
 @if (User.Identity.IsAuthenticated)
-{ 
+{
+    <p>@Html.ActionLink("Add a new product", "Create")</p>
+    <br />
     <ul>
         @foreach (var product in Model)
         {

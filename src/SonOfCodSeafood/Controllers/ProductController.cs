@@ -59,5 +59,18 @@ namespace SonOfCodSeafood.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            _db.Products.Add(product);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }
