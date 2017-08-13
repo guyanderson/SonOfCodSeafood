@@ -1,7 +1,7 @@
 ﻿@model SonOfCodSeafood.Models.Product
 
 @{
-    ViewData["Title"] = "Gummy Bear Kingdom";
+    ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -9,8 +9,12 @@
 <hr />
 
 <br />
-@using (Html.BeginForm())
-{
+
+<form method="post" asp-action="Create" asp-controller="Product" enctype="multipart/form-data">
+    <div class="file-field input-field">
+            <input type="file" name="img" multiple id="img" />
+    </div>
+    <br />
     @Html.HiddenFor(model => model.ProductId)
 
     @Html.LabelFor(model => model.Name, "Product Name:")
@@ -22,7 +26,7 @@
     <br />
     <br />
     <input type="submit" value="Save" />
-}
+</form>
 <br />
 <p>@Html.ActionLink("Back to Products", "Index")</p>
 <br />

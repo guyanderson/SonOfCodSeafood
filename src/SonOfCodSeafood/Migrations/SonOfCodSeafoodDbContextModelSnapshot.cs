@@ -172,6 +172,22 @@ namespace SonOfCodSeafood.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("SonOfCodSeafood.Models.Picture", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<byte[]>("Img");
+
+                    b.Property<int>("ProductId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Pictures");
+                });
+
             modelBuilder.Entity("SonOfCodSeafood.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -234,6 +250,14 @@ namespace SonOfCodSeafood.Migrations
                     b.HasOne("SonOfCodSeafood.Models.ApplicationUser")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("SonOfCodSeafood.Models.Picture", b =>
+                {
+                    b.HasOne("SonOfCodSeafood.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
         }

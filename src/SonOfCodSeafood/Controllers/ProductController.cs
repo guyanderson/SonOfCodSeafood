@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using SonOfCodSeafood.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace SonOfCodSeafood.Controllers
 {
@@ -65,9 +67,20 @@ namespace SonOfCodSeafood.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Product product)
+        public IActionResult Create(string name, string description, IFormFile img)
         {
-            _db.Products.Add(product);
+            byte[] newPhoto = new byte[0];
+            if (img != null)
+            {
+                using (Stream fileStream = img.OpenReadStream())
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    fileStream.CopyTo(ms);
+                    newPhoto = ms.ToArray();
+                }
+            }
+            Product newProduct = new Product(name, description, newPhoto);
+            _db.Products.Add(newProduct);
             _db.SaveChanges();
             return RedirectToAction("Index");
         }

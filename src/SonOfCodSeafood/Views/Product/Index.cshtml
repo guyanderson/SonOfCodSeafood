@@ -16,6 +16,11 @@
         {
             <li>
                 @Html.ActionLink(product.Name, "Details", new { id = product.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })
+                <br />
+                @if (product.Img.Length > 0)
+                {
+                    <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" />
+                }
             </li>
         }
     </ul>
