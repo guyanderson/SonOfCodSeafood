@@ -67,7 +67,7 @@ namespace SonOfCodSeafood.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(string name, string description, IFormFile img)
+        public IActionResult Create(string name, decimal price, string description, string details, IFormFile img)
         {
             byte[] newPhoto = new byte[0];
             if (img != null)
@@ -79,7 +79,7 @@ namespace SonOfCodSeafood.Controllers
                     newPhoto = ms.ToArray();
                 }
             }
-            Product newProduct = new Product(name, description, newPhoto);
+            Product newProduct = new Product(name, price, description, details, newPhoto);
             _db.Products.Add(newProduct);
             _db.SaveChanges();
             return RedirectToAction("Index");

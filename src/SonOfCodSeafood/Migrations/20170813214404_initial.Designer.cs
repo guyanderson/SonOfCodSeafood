@@ -8,9 +8,10 @@ using SonOfCodSeafood.Models;
 namespace SonOfCodSeafood.Migrations
 {
     [DbContext(typeof(SonOfCodSeafoodDbContext))]
-    partial class SonOfCodSeafoodDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170813214404_initial")]
+    partial class initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")
@@ -185,7 +186,7 @@ namespace SonOfCodSeafood.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<decimal>("Price");
+                    b.Property<int>("Price");
 
                     b.HasKey("ProductId");
 

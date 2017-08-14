@@ -27,8 +27,6 @@ namespace SonOfCodSeafood.Models
 
         public DbSet<Recipient> Recipients { get; set; }
 
-        public DbSet<Picture> Pictures { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=SonOfCodSeafood;integrated security=True");

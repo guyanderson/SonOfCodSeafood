@@ -1,4 +1,6 @@
 ﻿@model SonOfCodSeafood.Models.Product
+@using SonOfCodSeafood.Models
+
 
 @{
     ViewData["Title"] = "Details";
@@ -9,8 +11,19 @@
 <hr />
 <strong>Name:</strong> @Html.DisplayFor(model => model.Name)
 <br />
+<strong>Price:</strong> $@Html.DisplayFor(model => model.Price)
+<br />
+    @if (@Model.Img.Length > 0)
+    {
+        <img src="data:image/jpg;base64,@System.Convert.ToBase64String(@Model.Img)" />
+    }
+<br />
 <strong>Description:</strong> @Html.DisplayFor(model => model.Description)
 <br />
 <br />
+<strong>Summary:</strong> @Html.DisplayFor(model => model.Details)
+<br />
+<br />
 <p>@Html.ActionLink("Back to Products", "Index")</p>
-<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>  
+

@@ -1,5 +1,5 @@
---temp-output:C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\
---out:C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
+--temp-output:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -201,23 +201,23 @@
 --reference:C:\Users\Guy\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafooddotnet-compile.deps.json",SonOfCodSeafood.deps.json
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Program.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Startup.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\AccountController.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\HomeController.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\NewsLetterController.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\PictureController.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\ProductController.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813181027_initial.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813181027_initial.Designer.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813201347_ImgColToProductTB.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813201347_ImgColToProductTB.Designer.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\SonOfCodSeafoodDbContextModelSnapshot.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\ApplicationUser.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\Picture.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\Product.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\Recipient.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\SonOfCodSeafoodDbContext.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\ViewModels\AdminViewModel.cs
-C:\Users\Guy\documents\visual studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\ViewModels\LoginViewModel.cs
+--resource:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\obj\Debug\netcoreapp1.0\SonOfCodSeafooddotnet-compile.deps.json",SonOfCodSeafood.deps.json
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Program.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Startup.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\AccountController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\HomeController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\NewsLetterController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Controllers\ProductController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813214404_initial.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813214404_initial.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813220643_PriceToDecimal.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170813220643_PriceToDecimal.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170814001220_PriceToDouble.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\20170814001220_PriceToDouble.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Migrations\SonOfCodSeafoodDbContextModelSnapshot.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\ApplicationUser.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\Product.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\Recipient.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\Models\SonOfCodSeafoodDbContext.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\ViewModels\AdminViewModel.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\ViewModels\LoginViewModel.cs

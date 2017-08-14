@@ -8,8 +8,8 @@ using SonOfCodSeafood.Models;
 namespace SonOfCodSeafood.Migrations
 {
     [DbContext(typeof(SonOfCodSeafoodDbContext))]
-    [Migration("20170813201347_ImgColToProductTB")]
-    partial class ImgColToProductTB
+    [Migration("20170813220643_PriceToDecimal")]
+    partial class PriceToDecimal
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -173,22 +173,6 @@ namespace SonOfCodSeafood.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("SonOfCodSeafood.Models.Picture", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<byte[]>("Img");
-
-                    b.Property<int>("ProductId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Pictures");
-                });
-
             modelBuilder.Entity("SonOfCodSeafood.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -196,9 +180,13 @@ namespace SonOfCodSeafood.Migrations
 
                     b.Property<string>("Description");
 
+                    b.Property<string>("Details");
+
                     b.Property<byte[]>("Img");
 
                     b.Property<string>("Name");
+
+                    b.Property<decimal>("Price");
 
                     b.HasKey("ProductId");
 
@@ -251,14 +239,6 @@ namespace SonOfCodSeafood.Migrations
                     b.HasOne("SonOfCodSeafood.Models.ApplicationUser")
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("SonOfCodSeafood.Models.Picture", b =>
-                {
-                    b.HasOne("SonOfCodSeafood.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
         }

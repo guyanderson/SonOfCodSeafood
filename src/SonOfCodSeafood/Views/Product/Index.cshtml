@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<SonOfCodSeafood.Models.Product>
 @using System.Security.Claims
+@using SonOfCodSeafood.Models
 
 @{
     ViewData["Title"] = "Index";
@@ -7,6 +8,7 @@
 }
 
 <h2>Our products:</h2>
+<hr />
 @if (User.Identity.IsAuthenticated)
 {
     <p>@Html.ActionLink("Add a new product", "Create")</p>
@@ -15,27 +17,69 @@
         @foreach (var product in Model)
         {
             <li>
-                @Html.ActionLink(product.Name, "Details", new { id = product.ProductId }) | @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })
+                @Html.ActionLink(product.Name, "Details", new { id = product.ProductId }) 
                 <br />
                 @if (product.Img.Length > 0)
                 {
                     <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" />
                 }
+                <br />
+
+                @product.Description
+                <br />
+                <br />
+                @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })
             </li>
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h2 class="panel-title">@product.Name</h2>
+                        </div>
+                        <div class="panel-body">
+                            @if (product.Img.Length > 0)
+                            {
+                                <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" />
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
         }
+
+
+
     </ul>
+
+
+
+
 }
 else
 {
-<ul>
-    @foreach (var product in Model)
-    {
-        <li>
-            @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })
-        </li>
-    }
-</ul>
+    <ul>
+        @foreach (var product in Model)
+        {
+            <li>
+                @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })
+                <br />
+                @if (product.Img.Length > 0)
+                {
+                    <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" />
+                }
+                <br />
+
+                @product.Description
+            </li>
+        }
+    </ul>
 
 }
 
 <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
+
+
