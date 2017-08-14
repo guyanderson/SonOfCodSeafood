@@ -15,4 +15,8 @@ list-style: none;
 }
 #prod{
     display:block;
+    padding-bottom:20px;
+}
+#ED{
+    text-align:center;
 }

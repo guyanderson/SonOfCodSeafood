@@ -30,40 +30,41 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="ED">
+                            @Html.ActionLink("Edit", "Edit", new { id = product.ProductId }) | @Html.ActionLink("Delete", "Delete", new { id = product.ProductId })
+                        </div>
                     </div>
                 </li>
             }
         </ul>
     </div>
-
-
-
-
 }
 else
 {
-    <ul>
-        @foreach (var product in Model)
-        {
-            <li>
-                @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })
-                <br />
-                @if (product.Img.Length > 0)
-                {
-                    <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" />
-                }
-                <br />
-
-                @product.Description
-            </li>
-        }
-    </ul>
-
+    <div class="row">
+        <ul>
+            @foreach (var product in Model)
+            {
+                <li>
+                    <div id="prod" class="col-md-4">
+                        <div class="panel">
+                            <div class="panel-body">
+                                @if (product.Img.Length > 0)
+                                {
+                                    <img src="data:image/jpg;base64,@System.Convert.ToBase64String(product.Img)" , style="max-width: 100%;" />
+                                }
+                                <div class="panel-heading">
+                                    <h2 class="panel-title">@Html.ActionLink(product.Name, "Details", new { id = product.ProductId })</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
 }
-
 <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
-
-
 @*
 
     @Html.ActionLink(product.Name, "Details", new { id = product.ProductId })
