@@ -41,6 +41,8 @@ namespace SonOfCodSeafood.Controllers
         [HttpPost]
         public IActionResult Edit(Product product)
         {
+            var thisProduct = _db.Products.AsNoTracking().FirstOrDefault(products => products.ProductId == product.ProductId);
+            product.Img = thisProduct.Img; //Grabs the Img from the database then replaces it before EF removes it
             _db.Entry(product).State = EntityState.Modified;
             _db.SaveChanges();
             return RedirectToAction("Index");
