@@ -12,14 +12,22 @@
 @using (Html.BeginForm())
 {
     @Html.HiddenFor(model => model.ProductId)
-
+   
     @Html.LabelFor(model => model.Name, "Product Name:")
     @Html.EditorFor(model => model.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Price, "Product Price:")
+    @Html.EditorFor(model => model.Price)
     <br />
     <br />
     @Html.LabelFor(model => model.Description, "Product Description:")
     @Html.EditorFor(model => model.Description)
     <br />
+    <br />
+    @Html.LabelFor(model => model.Details, "Product Details:")
+    @Html.EditorFor(model => model.Details)
+
     <br />
     <input type="submit" value="Save" />
 }
