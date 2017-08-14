@@ -22,6 +22,17 @@
                     <li><a @Html.ActionLink("News Letter", "Index", "NewsLetter")</a></li>
                     <li><a @Html.ActionLink("Visit our Products page", "Index", "Product")</a></li>
                     <li><a @Html.ActionLink("Admin", "Index", "Account")</a></li>
+                    <li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @using (Html.BeginForm("LogOff", "Account"))
+                            {
+                                <input id="logoff" type="submit" value="Log out" />
+                            }
+                        }
+                    </li>
+
+
                 </ul>
             </div>
         </nav>
@@ -33,3 +44,5 @@
 
 </body>
 </html>
+
+

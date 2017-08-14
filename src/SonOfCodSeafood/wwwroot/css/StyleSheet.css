@@ -20,3 +20,14 @@ list-style: none;
 #ED{
     text-align:center;
 }
+#Home{
+    text-align:center;
+}
+#banner{
+    height:200px;
+    display: block;
+    margin:auto;
+}
+#logoff{
+    margin:10px;
+}
