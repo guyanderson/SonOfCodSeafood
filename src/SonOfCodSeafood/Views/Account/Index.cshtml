@@ -10,12 +10,12 @@
 {
     <p>Hello @User.Identity.Name!</p>
     <hr />
-
+<p>Here is the list of Recipients for our News Letter:</p>
     <ul>
         @foreach (var recipient in Model)
         {
             <li>
-                <h4>@recipient.Email</h4>
+                <p>@recipient.Email</p>
             </li>
         }
     </ul>
