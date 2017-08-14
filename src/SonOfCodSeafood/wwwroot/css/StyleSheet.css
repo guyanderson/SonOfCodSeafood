@@ -4,3 +4,15 @@
 li {
 list-style: none;
 }
+.panel-body {
+    max-width: 100%;
+    outline:none;
+}
+.panel-title{
+    text-align:center;
+    color:#005cb9;
+    font-size:1.75em;
+}
+#prod{
+    display:block;
+}
