@@ -14,12 +14,10 @@ namespace SonOfCodSeafood.Controllers
     public class ProductController : Controller
     {
 
-        private SonOfCodSeafoodDbContext _db;
+        private SonOfCodSeafoodDbContext _db = new SonOfCodSeafoodDbContext();
 
-        public ProductController(SonOfCodSeafoodDbContext db)
-        {
-            _db = db;
-        }
+         public ProductController() { }
+        
 
         public IActionResult Index()
         {

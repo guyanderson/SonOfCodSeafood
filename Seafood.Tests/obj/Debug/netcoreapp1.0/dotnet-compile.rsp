@@ -1,5 +1,5 @@
---temp-output:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\obj\Debug\netcoreapp1.0\
---out:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\bin\Debug\netcoreapp1.0\Seafood.Tests.dll
+--temp-output:C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\bin\Debug\netcoreapp1.0\Seafood.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -196,9 +196,9 @@
 --reference:C:\Users\Guy\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll
 --reference:C:\Users\Guy\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\Guy\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
---reference:C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Program.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Startup.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\HomeControllerTest.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\ProductsControllerTest.cs
-C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ModelTests\ProductTest.cs
+--reference:C:\Users\Guy\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll
+C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\Program.cs
+C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\Startup.cs
+C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ControllerTests\HomeControllerTest.cs
+C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ControllerTests\ProductsControllerTest.cs
+C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ModelTests\ProductTest.cs

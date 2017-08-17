@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\bin\Debug\netcoreapp1.0\Seafood.Tests.dll"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\bin\Debug\netcoreapp1.0\Seafood.Tests.dll"
 -r:"C:\Users\Guy\.nuget\packages\dotnet-test-xunit\2.2.0-preview2-build1029\lib\netcoreapp1.0\dotnet-test-xunit.dll"
 -r:"C:\Users\Guy\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Guy\.nuget\packages\Microsoft.AspNetCore.Authentication\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authentication.dll"
@@ -194,9 +194,9 @@
 -r:"C:\Users\Guy\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll"
 -r:"C:\Users\Guy\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll"
 -r:"C:\Users\Guy\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll"
--r:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll"
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Program.cs"
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\Startup.cs"
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\HomeControllerTest.cs"
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ControllerTests\ProductsControllerTest.cs"
-"C:\Users\Guy\Documents\Visual Studio 2015\Projects\SonOfCodSeafood\Seafood.Tests\ModelTests\ProductTest.cs"
+-r:"C:\Users\Guy\Desktop\SonOfCodSeafood\src\SonOfCodSeafood\bin\Debug\netcoreapp1.0\SonOfCodSeafood.dll"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\Program.cs"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\Startup.cs"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ControllerTests\HomeControllerTest.cs"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ControllerTests\ProductsControllerTest.cs"
+"C:\Users\Guy\Desktop\SonOfCodSeafood\Seafood.Tests\ModelTests\ProductTest.cs"

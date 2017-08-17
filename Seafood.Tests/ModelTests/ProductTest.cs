@@ -11,6 +11,7 @@ namespace Seafood.Tests.ModelTests
 {
     public class ProductTest
     {
+        private SonOfCodSeafoodDbContext _db;
 
         [Fact]
         public void GetNameTest()
