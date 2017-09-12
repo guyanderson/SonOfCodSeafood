@@ -1,4 +1,4 @@
-# _Son of Cod Seafood_
+﻿# _Son of Cod Seafood_
 
 #### _Online store for Son of Cod Seafood_
 
@@ -9,6 +9,16 @@
 _Application will Be a showcase for products sold by the Son of Cod Seafood Co. Site will also have admin abilities to add update and delete new products. Interested customers can sign up for our news letter_
 
 https://www.pacseafood.com was the inspiration for the layout.
+
+![Home](wwwroot/img/home.PNG)
+![News](wwwroot/img/news.PNG)
+![Product](wwwroot/img/product.PNG)
+![Details](wwwroot/img/details.PNG)
+![Admin](wwwroot/img/admin.PNG)
+![Register](wwwroot/img/register.PNG)
+![Login](wwwroot/img/login.PNG)
+![Adminview](wwwroot/img/adminview.PNG)
+![Crud](wwwroot/img/crud.PNG)
 
 ## specs
 | Behavior | Input | Output |
