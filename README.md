@@ -13,10 +13,10 @@ https://www.pacseafood.com was the inspiration for the layout.
 ## Screen Shots
 ![Home](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/home.PNG)
 ![News](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/news.PNG)
-![Product](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/product)
-![Details](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/details)
+![Product](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/product.PNG)
+![Details](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/details.PNG)
 ![Admin](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/admin.PNG)
-![Register](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/register)
+![Register](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/register.PNG)
 ![Login](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/login.PNG)
 ![Adminview](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/adminview.PNG)
 ![Crud](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/crud.PNG)
