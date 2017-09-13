@@ -10,7 +10,7 @@ _Application will Be a showcase for products sold by the Son of Cod Seafood Co. 
 
 https://www.pacseafood.com was the inspiration for the layout.
 
-![Home](https://github.com/guyanderson/blob/master/src/SonOfCodSeafood/wwwroot/img/home.PNG)
+![Home](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/home.PNG)
 ![News](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/news.PNG)
 ![Product](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/product.PNG)
 ![Details](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/details.PNG)
