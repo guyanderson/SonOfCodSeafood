@@ -1,4 +1,4 @@
-﻿# _Son of Cod Seafood_
+# _Son of Cod Seafood_
 
 #### _Online store for Son of Cod Seafood_
 
