@@ -12,7 +12,7 @@ https://www.pacseafood.com was the inspiration for the layout.
 
 ## Screen Shots
 _Click to open_
-![Home](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/home.PNG)
+![Home](https://github.com/guyanderson/SonOfCodSeafood/blob/master/src/assets/home.PNG)
 ![News](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/news.PNG)
 ![Product](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/product)
 ![Details](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/details)
