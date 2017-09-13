@@ -10,15 +10,17 @@ _Application will Be a showcase for products sold by the Son of Cod Seafood Co. 
 
 https://www.pacseafood.com was the inspiration for the layout.
 
-![Home](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/home.PNG?raw=true)
-![News](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/news.PNG?raw=true)
-![Product](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/product.PNG?raw=true)
-![Details](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/details.PNG?raw=true)
-![Admin](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/admin.PNG?raw=true)
-![Register](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/register.PNG?raw=true)
-![Login](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/login.PNG?raw=true)
-![Adminview](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/adminview.PNG?raw=true)
-![Crud](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/crud.PNG?raw=true)
+## Screen Shots
+_Click to open_
+![Home](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/home.PNG)
+![News](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/news.PNG)
+![Product](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/product)
+![Details](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/details)
+![Admin](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/admin.PNG)
+![Register](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/register)
+![Login](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/login.PNG)
+![Adminview](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/adminview.PNG)
+![Crud](https://github.com/guyanderson/SonOfCodSeafood/tree/master/src/SonOfCodSeafood/wwwroot/img/crud.PNG)
 
 ## specs
 | Behavior | Input | Output |
