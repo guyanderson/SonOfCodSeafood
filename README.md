@@ -10,15 +10,15 @@ _Application will Be a showcase for products sold by the Son of Cod Seafood Co. 
 
 https://www.pacseafood.com was the inspiration for the layout.
 
-![Home](wwwroot/img/home.PNG)
-![News](wwwroot/img/news.PNG)
-![Product](wwwroot/img/product.PNG)
-![Details](wwwroot/img/details.PNG)
-![Admin](wwwroot/img/admin.PNG)
-![Register](wwwroot/img/register.PNG)
-![Login](wwwroot/img/login.PNG)
-![Adminview](wwwroot/img/adminview.PNG)
-![Crud](wwwroot/img/crud.PNG)
+![Home](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/home.PNG)
+![News](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/news.PNG)
+![Product](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/product.PNG)
+![Details](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/details.PNG)
+![Admin](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/admin.PNG)
+![Register](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/register.PNG)
+![Login](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/login.PNG)
+![Adminview](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/adminview.PNG)
+![Crud](https://github.com/guyanderson/SonOfCodSeafood/src/SonOfCodSeafood/wwwroot/img/crud.PNG)
 
 ## specs
 | Behavior | Input | Output |
